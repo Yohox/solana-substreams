@@ -1,0 +1,252 @@
+mpl-token-metadata-substream v0.1.4 (/Users/yoho/solana-substreams/mpl_token_metadata)
+├── borsh v1.5.1
+│   └── borsh-derive v1.5.1 (proc-macro)
+│       ├── once_cell v1.20.2
+│       ├── proc-macro-crate v3.2.0
+│       │   └── toml_edit v0.22.22
+│       │       ├── indexmap v2.6.0
+│       │       │   ├── equivalent v1.0.1
+│       │       │   └── hashbrown v0.15.0
+│       │       ├── toml_datetime v0.6.8
+│       │       └── winnow v0.6.20
+│       ├── proc-macro2 v1.0.87
+│       │   └── unicode-ident v1.0.13
+│       ├── quote v1.0.37
+│       │   └── proc-macro2 v1.0.87 (*)
+│       ├── syn v2.0.79
+│       │   ├── proc-macro2 v1.0.87 (*)
+│       │   ├── quote v1.0.37 (*)
+│       │   └── unicode-ident v1.0.13
+│       └── syn_derive v0.1.8 (proc-macro)
+│           ├── proc-macro-error v1.0.4
+│           │   ├── proc-macro-error-attr v1.0.4 (proc-macro)
+│           │   │   ├── proc-macro2 v1.0.87 (*)
+│           │   │   └── quote v1.0.37 (*)
+│           │   │   [build-dependencies]
+│           │   │   └── version_check v0.9.5
+│           │   ├── proc-macro2 v1.0.87 (*)
+│           │   └── quote v1.0.37 (*)
+│           │   [build-dependencies]
+│           │   └── version_check v0.9.5
+│           ├── proc-macro2 v1.0.87 (*)
+│           ├── quote v1.0.37 (*)
+│           └── syn v2.0.79 (*)
+│   [build-dependencies]
+│   └── cfg_aliases v0.2.1
+├── bs58 v0.5.1
+├── lazy_static v1.5.0
+├── num-derive v0.4.2 (proc-macro)
+│   ├── proc-macro2 v1.0.87 (*)
+│   ├── quote v1.0.37 (*)
+│   └── syn v2.0.79 (*)
+├── num-traits v0.2.19
+│   [build-dependencies]
+│   └── autocfg v1.4.0
+├── prost v0.11.9
+│   ├── bytes v1.7.2
+│   └── prost-derive v0.11.9 (proc-macro)
+│       ├── anyhow v1.0.89
+│       ├── itertools v0.10.5
+│       │   └── either v1.13.0
+│       ├── proc-macro2 v1.0.87 (*)
+│       ├── quote v1.0.37 (*)
+│       └── syn v1.0.109
+│           ├── proc-macro2 v1.0.87 (*)
+│           ├── quote v1.0.37 (*)
+│           └── unicode-ident v1.0.13
+├── substreams v0.5.22
+│   ├── anyhow v1.0.89
+│   ├── bigdecimal v0.3.1
+│   │   ├── num-bigint v0.4.6
+│   │   │   ├── num-integer v0.1.46
+│   │   │   │   └── num-traits v0.2.19 (*)
+│   │   │   └── num-traits v0.2.19 (*)
+│   │   ├── num-integer v0.1.46 (*)
+│   │   └── num-traits v0.2.19 (*)
+│   ├── hex v0.4.3
+│   ├── hex-literal v0.3.4 (proc-macro)
+│   ├── num-bigint v0.4.6 (*)
+│   ├── num-integer v0.1.46 (*)
+│   ├── num-traits v0.2.19 (*)
+│   ├── pad v0.1.6
+│   │   └── unicode-width v0.1.14
+│   ├── pest v2.7.13
+│   │   ├── memchr v2.7.4
+│   │   ├── thiserror v1.0.64
+│   │   │   └── thiserror-impl v1.0.64 (proc-macro)
+│   │   │       ├── proc-macro2 v1.0.87 (*)
+│   │   │       ├── quote v1.0.37 (*)
+│   │   │       └── syn v2.0.79 (*)
+│   │   └── ucd-trie v0.1.7
+│   ├── pest_derive v2.7.13 (proc-macro)
+│   │   ├── pest v2.7.13
+│   │   │   ├── memchr v2.7.4
+│   │   │   ├── thiserror v1.0.64
+│   │   │   │   └── thiserror-impl v1.0.64 (proc-macro) (*)
+│   │   │   └── ucd-trie v0.1.7
+│   │   └── pest_generator v2.7.13
+│   │       ├── pest v2.7.13 (*)
+│   │       ├── pest_meta v2.7.13
+│   │       │   ├── once_cell v1.20.2
+│   │       │   └── pest v2.7.13 (*)
+│   │       │   [build-dependencies]
+│   │       │   └── sha2 v0.10.8
+│   │       │       ├── cfg-if v1.0.0
+│   │       │       ├── cpufeatures v0.2.14
+│   │       │       │   └── libc v0.2.159
+│   │       │       └── digest v0.10.7
+│   │       │           ├── block-buffer v0.10.4
+│   │       │           │   └── generic-array v0.14.7
+│   │       │           │       └── typenum v1.17.0
+│   │       │           │       [build-dependencies]
+│   │       │           │       └── version_check v0.9.5
+│   │       │           └── crypto-common v0.1.6
+│   │       │               ├── generic-array v0.14.7 (*)
+│   │       │               └── typenum v1.17.0
+│   │       ├── proc-macro2 v1.0.87 (*)
+│   │       ├── quote v1.0.37 (*)
+│   │       └── syn v2.0.79 (*)
+│   ├── prost v0.11.9 (*)
+│   ├── prost-types v0.11.9
+│   │   └── prost v0.11.9 (*)
+│   ├── substreams-macro v0.5.22 (proc-macro)
+│   │   ├── proc-macro2 v1.0.87 (*)
+│   │   ├── quote v1.0.37 (*)
+│   │   ├── syn v1.0.109 (*)
+│   │   └── thiserror v1.0.64 (*)
+│   └── thiserror v1.0.64 (*)
+│   [build-dependencies]
+│   └── prost-build v0.11.9
+│       ├── bytes v1.7.2
+│       ├── heck v0.4.1
+│       ├── itertools v0.10.5 (*)
+│       ├── lazy_static v1.5.0
+│       ├── log v0.4.22
+│       ├── multimap v0.8.3
+│       ├── petgraph v0.6.5
+│       │   ├── fixedbitset v0.4.2
+│       │   └── indexmap v2.6.0 (*)
+│       ├── prettyplease v0.1.25
+│       │   ├── proc-macro2 v1.0.87 (*)
+│       │   └── syn v1.0.109 (*)
+│       ├── prost v0.11.9
+│       │   ├── bytes v1.7.2
+│       │   └── prost-derive v0.11.9 (proc-macro) (*)
+│       ├── prost-types v0.11.9
+│       │   └── prost v0.11.9 (*)
+│       ├── regex v1.11.0
+│       │   ├── regex-automata v0.4.8
+│       │   │   └── regex-syntax v0.8.5
+│       │   └── regex-syntax v0.8.5
+│       ├── syn v1.0.109 (*)
+│       ├── tempfile v3.13.0
+│       │   ├── cfg-if v1.0.0
+│       │   ├── fastrand v2.1.1
+│       │   ├── once_cell v1.20.2
+│       │   └── rustix v0.38.37
+│       │       ├── bitflags v2.6.0
+│       │       ├── errno v0.3.9
+│       │       │   └── libc v0.2.159
+│       │       └── libc v0.2.159
+│       └── which v4.4.2
+│           ├── either v1.13.0
+│           ├── home v0.5.9
+│           └── rustix v0.38.37 (*)
+├── substreams-solana v0.13.0 (https://github.com/streamingfast/substreams-solana?tag=v0.13.0#d564c4bd)
+│   ├── anyhow v1.0.89
+│   ├── num_enum v0.7.3
+│   │   └── num_enum_derive v0.7.3 (proc-macro)
+│   │       ├── proc-macro-crate v3.2.0 (*)
+│   │       ├── proc-macro2 v1.0.87 (*)
+│   │       ├── quote v1.0.37 (*)
+│   │       └── syn v2.0.79 (*)
+│   ├── substreams v0.5.22 (*)
+│   ├── substreams-solana-core v0.13.0 (https://github.com/streamingfast/substreams-solana?tag=v0.13.0#d564c4bd)
+│   │   ├── bs58 v0.4.0
+│   │   ├── prost v0.11.9 (*)
+│   │   └── prost-types v0.11.9 (*)
+│   │   [build-dependencies]
+│   │   └── prost-build v0.11.9 (*)
+│   └── substreams-solana-macro v0.13.0 (proc-macro) (https://github.com/streamingfast/substreams-solana?tag=v0.13.0#d564c4bd)
+│       └── bs58 v0.4.0
+├── substreams-solana-utils v0.1.4 (https://github.com/0xpapercut/substreams-solana-utils?tag=v0.1.4#2576dbf5)
+│   ├── anyhow v1.0.89
+│   ├── base64 v0.22.1
+│   ├── borsh v1.5.1 (*)
+│   ├── bs58 v0.5.1
+│   ├── regex v1.11.0
+│   │   ├── aho-corasick v1.1.3
+│   │   │   └── memchr v2.7.4
+│   │   ├── memchr v2.7.4
+│   │   ├── regex-automata v0.4.8
+│   │   │   ├── aho-corasick v1.1.3 (*)
+│   │   │   ├── memchr v2.7.4
+│   │   │   └── regex-syntax v0.8.5
+│   │   └── regex-syntax v0.8.5
+│   ├── substreams v0.5.22 (*)
+│   └── substreams-solana v0.13.0 (https://github.com/streamingfast/substreams-solana?branch=master#0d3d087d)
+│       ├── anyhow v1.0.89
+│       ├── num_enum v0.7.3 (*)
+│       ├── substreams v0.5.22 (*)
+│       ├── substreams-solana-core v0.13.0 (https://github.com/streamingfast/substreams-solana?branch=master#0d3d087d)
+│       │   ├── bs58 v0.4.0
+│       │   ├── prost v0.11.9 (*)
+│       │   └── prost-types v0.11.9 (*)
+│       │   [build-dependencies]
+│       │   └── prost-build v0.11.9 (*)
+│       └── substreams-solana-macro v0.13.0 (proc-macro) (https://github.com/streamingfast/substreams-solana?branch=master#0d3d087d)
+│           └── bs58 v0.4.0
+└── thiserror v1.0.64 (*)
+
+pumpfun-substream v0.1.4 (/Users/yoho/solana-substreams/pumpfun)
+├── anyhow v1.0.89
+├── borsh v1.5.1 (*)
+├── bs58 v0.5.1
+├── lazy_static v1.5.0
+├── prost v0.11.9 (*)
+├── spl-token-substream v0.1.4 (/Users/yoho/solana-substreams/spl_token)
+│   ├── anyhow v1.0.89
+│   ├── bs58 v0.5.1
+│   ├── prost v0.11.9 (*)
+│   ├── substreams v0.5.22 (*)
+│   ├── substreams-solana v0.13.0 (https://github.com/streamingfast/substreams-solana?tag=v0.13.0#d564c4bd) (*)
+│   ├── substreams-solana-utils v0.1.4 (https://github.com/0xpapercut/substreams-solana-utils?tag=v0.1.4#2576dbf5) (*)
+│   └── thiserror v1.0.64 (*)
+├── substreams v0.5.22 (*)
+├── substreams-solana v0.13.0 (https://github.com/streamingfast/substreams-solana?tag=v0.13.0#d564c4bd) (*)
+├── substreams-solana-utils v0.1.4 (https://github.com/0xpapercut/substreams-solana-utils?tag=v0.1.4#2576dbf5) (*)
+└── system-program-substream v0.1.4 (/Users/yoho/solana-substreams/system_program)
+    ├── anyhow v1.0.89
+    ├── borsh v1.5.1 (*)
+    ├── bs58 v0.5.1
+    ├── lazy_static v1.5.0
+    ├── prost v0.11.9 (*)
+    ├── substreams v0.5.22 (*)
+    ├── substreams-solana v0.13.0 (https://github.com/streamingfast/substreams-solana?tag=v0.13.0#d564c4bd) (*)
+    └── substreams-solana-utils v0.1.4 (https://github.com/0xpapercut/substreams-solana-utils?tag=v0.1.4#2576dbf5) (*)
+
+raydium-amm-substream v0.1.4 (/Users/yoho/solana-substreams/raydium_amm)
+├── anyhow v1.0.89
+├── arrayref v0.3.9
+├── base64 v0.22.1
+├── bincode v1.3.3
+│   └── serde v1.0.210
+│       └── serde_derive v1.0.210 (proc-macro)
+│           ├── proc-macro2 v1.0.87 (*)
+│           ├── quote v1.0.37 (*)
+│           └── syn v2.0.79 (*)
+├── bs58 v0.5.1
+├── bytemuck v1.19.0
+├── lazy_static v1.5.0
+├── prost v0.11.9 (*)
+├── regex v1.11.0 (*)
+├── safe-transmute v0.11.3
+├── serde v1.0.210 (*)
+├── spl-token-substream v0.1.4 (/Users/yoho/solana-substreams/spl_token) (*)
+├── substreams v0.5.22 (*)
+├── substreams-solana v0.13.0 (https://github.com/streamingfast/substreams-solana?tag=v0.13.0#d564c4bd) (*)
+└── substreams-solana-utils v0.1.4 (https://github.com/0xpapercut/substreams-solana-utils?tag=v0.1.4#2576dbf5) (*)
+
+spl-token-substream v0.1.4 (/Users/yoho/solana-substreams/spl_token) (*)
+
+system-program-substream v0.1.4 (/Users/yoho/solana-substreams/system_program) (*)
