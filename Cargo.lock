@@ -299,7 +299,7 @@ dependencies = [
  "num-traits",
  "prost",
  "substreams",
- "substreams-solana",
+ "substreams-solana 0.13.0 (git+https://github.com/streamingfast/substreams-solana?tag=v0.13.0)",
  "substreams-solana-utils",
  "thiserror",
 ]
@@ -556,7 +556,7 @@ dependencies = [
  "prost",
  "spl-token-substream",
  "substreams",
- "substreams-solana",
+ "substreams-solana 0.13.0 (git+https://github.com/streamingfast/substreams-solana?tag=v0.13.0)",
  "substreams-solana-utils",
  "system-program-substream",
 ]
@@ -587,7 +587,7 @@ dependencies = [
  "serde",
  "spl-token-substream",
  "substreams",
- "substreams-solana",
+ "substreams-solana 0.13.0 (git+https://github.com/streamingfast/substreams-solana?tag=v0.13.0)",
  "substreams-solana-utils",
 ]
 
@@ -678,7 +678,7 @@ dependencies = [
  "bs58 0.5.1",
  "prost",
  "substreams",
- "substreams-solana",
+ "substreams-solana 0.13.0 (git+https://github.com/streamingfast/substreams-solana?tag=v0.13.0)",
  "substreams-solana-utils",
  "thiserror",
 ]
@@ -721,13 +721,36 @@ dependencies = [
 [[package]]
 name = "substreams-solana"
 version = "0.13.0"
+source = "git+https://github.com/streamingfast/substreams-solana?tag=v0.13.0#d564c4bda2f5ac74468c2cf5496eea7c166cf857"
+dependencies = [
+ "anyhow",
+ "num_enum",
+ "substreams",
+ "substreams-solana-core 0.13.0 (git+https://github.com/streamingfast/substreams-solana?tag=v0.13.0)",
+ "substreams-solana-macro 0.13.0 (git+https://github.com/streamingfast/substreams-solana?tag=v0.13.0)",
+]
+
+[[package]]
+name = "substreams-solana"
+version = "0.13.0"
 source = "git+https://github.com/streamingfast/substreams-solana?branch=master#0d3d087d90a927d17435653b3a7fc4ef6e2758a6"
 dependencies = [
  "anyhow",
  "num_enum",
  "substreams",
- "substreams-solana-core",
- "substreams-solana-macro",
+ "substreams-solana-core 0.13.0 (git+https://github.com/streamingfast/substreams-solana?branch=master)",
+ "substreams-solana-macro 0.13.0 (git+https://github.com/streamingfast/substreams-solana?branch=master)",
+]
+
+[[package]]
+name = "substreams-solana-core"
+version = "0.13.0"
+source = "git+https://github.com/streamingfast/substreams-solana?tag=v0.13.0#d564c4bda2f5ac74468c2cf5496eea7c166cf857"
+dependencies = [
+ "bs58 0.4.0",
+ "prost",
+ "prost-build",
+ "prost-types",
 ]
 
 [[package]]
@@ -739,6 +762,14 @@ dependencies = [
  "prost",
  "prost-build",
  "prost-types",
+]
+
+[[package]]
+name = "substreams-solana-macro"
+version = "0.13.0"
+source = "git+https://github.com/streamingfast/substreams-solana?tag=v0.13.0#d564c4bda2f5ac74468c2cf5496eea7c166cf857"
+dependencies = [
+ "bs58 0.4.0",
 ]
 
 [[package]]
@@ -760,7 +791,7 @@ dependencies = [
  "bs58 0.5.1",
  "regex",
  "substreams",
- "substreams-solana",
+ "substreams-solana 0.13.0 (git+https://github.com/streamingfast/substreams-solana?branch=master)",
 ]
 
 [[package]]
@@ -807,7 +838,7 @@ dependencies = [
  "lazy_static",
  "prost",
  "substreams",
- "substreams-solana",
+ "substreams-solana 0.13.0 (git+https://github.com/streamingfast/substreams-solana?tag=v0.13.0)",
  "substreams-solana-utils",
 ]
 
